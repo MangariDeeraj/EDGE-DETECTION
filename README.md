@@ -29,7 +29,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread('toy.jpg')
+image = cv2.imread('butterfly.jpg')
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 plt.title('Original Image')
@@ -60,19 +60,20 @@ plt.axis('off')
 ```
 ## Output:
 ### Original:
-![image](https://github.com/user-attachments/assets/305f827c-651b-4ebd-8a06-9aa2c9d0af4e)
+
+![download](https://github.com/user-attachments/assets/14f70c0d-3260-4e7f-a5d1-85850f9985af)
 
 
 ### SOBEL EDGE DETECTOR
-![image](https://github.com/user-attachments/assets/2addfe61-89e7-4b15-818b-7d07b044da50)
+![download](https://github.com/user-attachments/assets/66be8bb8-3513-4d22-b4ed-781fbb209fe9)
 
 
 ### LAPLACIAN EDGE DETECTOR
-![image](https://github.com/user-attachments/assets/7b1db6f4-f400-4a8b-81f3-114e7dbcc9da)
+![download](https://github.com/user-attachments/assets/2e5ce636-3cf5-40d4-bc0d-805909425bef)
 
 
 ### CANNY EDGE DETECTOR
-![image](https://github.com/user-attachments/assets/32e6d8af-225c-4c93-98bd-16afed661a77)
+![download](https://github.com/user-attachments/assets/79b21135-669d-4e3f-9ed4-a7ee8e90e3db)
 
 ## Result:
 Thus the edges are detected using Sobel, Laplacian, and Canny edge detectors.
